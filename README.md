@@ -29,10 +29,8 @@
 <p align="center">
   <a href="#tecnologias-e-recursos">Tecnologias e Recursos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#sobre-o-desafio">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-    <a href="#rotas-da-aplicação">Rotas da aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#específicação-dos-testes">Especificação de testes</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#instalação-e-execução">Instalação e execução</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#arquivo-do-insomnia">Arquivo do Insomnia</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#calendar-entrega">Entrega</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
@@ -55,9 +53,7 @@ Diferente do desafio 01, a sua solução para esse desafio não precisa ser recu
 Para isso, você pode iniciar um projeto usando o comando:
 
 
-``
-mix new list_filter
-``
+``mix new list_filter``
 
 O nome do projeto pode ser um de sua escolha  💜
 
@@ -65,16 +61,9 @@ O nome do projeto pode ser um de sua escolha  💜
 
 Podemos acompanhar o resultado esperado observando o seguinte exemplo de execução da função:
 
-``
-iex> ListFilter.call(["1", "3", "6", "43", "banana", "6", "abc"])
-...> 3
+``iex> ListFilter.call(["1", "3", "6", "43", "banana", "6", "abc"])...> 3``
 
 Você deve cumprir para que o teste passe.
-
-
-<h1 align="left">
-    <a href="https://www.notion.so/Testes-test-list_length_test-exs-beef33b644d644d2aa11b29840f19864">🔗 Exemplo</a>
-</h1>
 
 ## :calendar: Entrega
 
